@@ -1,0 +1,18 @@
+[package]
+name = "cargo-incver"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["simens_green"]
+description = "A small utility for manipulating the project version in Cargo.toml"
+keywords = ["git", "semver", "gitlab", "github", "tool", "automation"]
+categories = ["command-line-utilities", "development-tools", "development-tools::cargo-plugins"]
+readme = "README.md"
+repository = "https://github.com/simensgreen/cargo-incvec"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.4.6", features = ["derive", "cargo"] }
+semver = "1.0.20"
+tomllib = "0.1.2"
