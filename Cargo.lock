@@ -67,7 +67,7 @@ checksum = "0fc10e8cc6b2580fda3f36eb6dc5316657f812a3df879a44a66fc9f0fdbc4855"
 
 [[package]]
 name = "cargo-incver"
-version = "0.1.0"
+version = "1.0.0"
 dependencies = [
  "clap",
  "semver",
